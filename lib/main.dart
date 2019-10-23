@@ -62,6 +62,13 @@ class _MyHomePageState extends State<MyHomePage> {
                   'https://www.youtube.com/watch?v=Yd-bgqe3DxA&list=PLR2qQy0Zxs_UdqAcaipPR3CG1Ly57UlhV&index=15',
               githubUrl: 'https://github.com/iampawan/frenzychatapp',
             ),
+            MyListTile(
+              title: 'Flutter - Git Quick Start Guide',
+              subtitle: 'MTechViral',
+              youtubeUrl:
+                  'https://www.youtube.com/watch?v=kVow5q53WG8&list=PLR2qQy0Zxs_UdqAcaipPR3CG1Ly57UlhV&index=16',
+              githubUrl: 'https://github.com',
+            ),
           ],
         ),
       ),
