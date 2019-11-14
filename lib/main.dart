@@ -506,7 +506,10 @@ class MyListTile extends StatelessWidget {
               child: Container(
                 decoration:
                     BoxDecoration(shape: BoxShape.rectangle, color: Colors.red),
-                child: Icon(Icons.play_arrow),
+                child: Icon(
+                  Icons.play_arrow,
+                  color: Colors.white,
+                ),
               ),
             ),
           ),
