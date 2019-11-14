@@ -503,8 +503,11 @@ class MyListTile extends StatelessWidget {
             // margin: EdgeInsets.only(top: 8),
             child: InkWell(
               onTap: () => html.window.open(youtubeUrl, 'route'),
-              child: Image.network(
-                  'https://yt3.ggpht.com/a/AGF-l79Dpy9yGG-j3hTwtQiN3iXRVaC0UHu2cgSUvQ=s900-c-k-c0xffffffff-no-rj-mo'),
+              child: Container(
+                decoration:
+                    BoxDecoration(shape: BoxShape.rectangle, color: Colors.red),
+                child: Icon(Icons.play_arrow),
+              ),
             ),
           ),
           title: Text(
