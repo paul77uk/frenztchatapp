@@ -492,6 +492,7 @@ class MyListTile extends StatelessWidget {
     this.imageUrl,
     this.scale,
   });
+  
 
   @override
   Widget build(BuildContext context) {
@@ -503,13 +504,9 @@ class MyListTile extends StatelessWidget {
             // margin: EdgeInsets.only(top: 8),
             child: InkWell(
               onTap: () => html.window.open(youtubeUrl, 'route'),
-              child: Container(
-                decoration:
-                    BoxDecoration(shape: BoxShape.rectangle, color: Colors.red),
-                child: Icon(
-                  Icons.play_arrow,
-                  color: Colors.white,
-                ),
+              child: Icon(
+                FontAwesomeIcons.youtube,
+                color: Colors.red,
               ),
             ),
           ),
